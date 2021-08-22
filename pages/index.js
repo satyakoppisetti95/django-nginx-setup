@@ -121,8 +121,8 @@ export default function Home() {
       <br/><br/>
 
       <Grid container>
-        <Grid xs={12} lg={2}></Grid>
-        <Grid xs={12} lg={8}>
+        <Grid item xs={12} lg={2}></Grid>
+        <Grid item xs={12} lg={8}>
           <DarkTextTypography variant={"h2"}>
             Gunicorn Setup
           </DarkTextTypography>
@@ -208,13 +208,13 @@ export default function Home() {
           
           
         </Grid>
-        <Grid xs={12} lg={2}></Grid>
+        <Grid item xs={12} lg={2}></Grid>
       </Grid>
 
 
       <Grid container>
-        <Grid xs={12} lg={2}></Grid>
-        <Grid xs={12} lg={8}>
+        <Grid item xs={12} lg={2}></Grid>
+        <Grid item xs={12} lg={8}>
           <DarkTextTypography variant={"h2"}>
             Nginx Setup
           </DarkTextTypography>
@@ -274,7 +274,7 @@ export default function Home() {
 
           
         </Grid>
-        <Grid xs={12} lg={2}></Grid>
+        <Grid item xs={12} lg={2}></Grid>
       </Grid>
     
 

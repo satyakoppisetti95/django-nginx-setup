@@ -27,7 +27,7 @@ export default function AppNavbar(){
             <Toolbar>
                
                 
-                <Link href="/">
+                <Link href="/" passHref={true}>
                     <div className={classes.title}>
                     <WhiteTextTypography variant="h5">
                     Django Server setup

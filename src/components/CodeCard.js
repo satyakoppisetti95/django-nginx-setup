@@ -18,8 +18,8 @@ export default function CodeCard(props){
                 <Grid item xs={12} lg={12} style={{padding:20}}>
                     {props.lines.map((item,index)=>{
                         return(
-                        <WhiteTextTypography variant="body1">
-                            {props.prefix?<span class="unselectable-text" style={{marginRight:16}}>{props.prefix}</span>:<></>}
+                        <WhiteTextTypography variant="body1" key={"line-"+item.substr(0,1)+index}>
+                            {props.prefix?<span className="unselectable-text" style={{marginRight:16}}>{props.prefix}</span>:<></>}
                             {item}
                         </WhiteTextTypography>)
                     })}
